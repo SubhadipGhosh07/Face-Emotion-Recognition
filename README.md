@@ -2,7 +2,8 @@
 
 This project aims to classify the emotion on a person's face into one of seven categories, using deep convolutional neural networks. The model is trained on the FER-2013 dataset which was published on International Conference on Machine Learning (ICML). This dataset consists of 35887 grayscale, 48x48 sized face images with seven emotions - angry, disgusted, fearful, happy, neutral, sad and surprised.
 
-![Screenshot (303)](https://user-images.githubusercontent.com/83903018/124556873-7a93ea80-de56-11eb-86b7-6db2fd1b499a.png)
+![Screenshot (317)](https://user-images.githubusercontent.com/83903018/124557442-25a4a400-de57-11eb-8eab-a5b1f2e473f8.png)
+
 
 
 
