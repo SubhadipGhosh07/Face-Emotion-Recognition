@@ -15,25 +15,14 @@ validation shape (3589, 48, 48, 1)
 validation shape (3589, 48, 48, 1)
 
 
-<h1>Experiment With Model</h1>
-  <h3>1.Using MLP with tensorflow version 2.4.1</h3>
-Epoch 1/5
-898/898 [==============================] - 4s 4ms/step - loss: 47.1633 - accuracy: 0.2087 - val_loss: 2.3757 - val_accuracy: 0.2282
+<h3>Overall Summary of the model: </h3>
 
-Epoch 2/5
-898/898 [==============================] - 3s 4ms/step - loss: 1.9894 - accuracy: 0.2493 - val_loss: 2.1619 - val_accuracy: 0.1828
+* Employed essential image preprocessing techniques such as image augmentation, pixel brightness and gray scaling to improve image quality for better prediction. 
+* Experimented with multiple pre-trained models such as multi-task CNN, VGG16, and Resnet50 to reduce the training time and improved accuracy. 
+* Trained the CNN model on seven emotions and tested real time video output using Computer Vision and deployed model on Heroku using Streamlit.
 
-Epoch 3/5
-898/898 [==============================] - 3s 4ms/step - loss: 1.8900 - accuracy: 0.2655 - val_loss: 2.6126 - val_accuracy: 0.1167
 
-Epoch 4/5
-898/898 [==============================] - 3s 4ms/step - loss: 1.8567 - accuracy: 0.2327 - val_loss: 1.8168 - val_accuracy: 0.2449
-
-Epoch 5/5
-898/898 [==============================] - 3s 4ms/step - loss: 1.8110 - accuracy: 0.2486 - val_loss: 1.8177 - val_accuracy: 0.2449
-<tensorflow.python.keras.callbacks.History at 0x7fd02058f390>
-
-<h3>2.Using CNN</h3> 
+<h3>Using CNN</h3> 
 
 Epoch 1/15
 684/684 [==============================] - 56s 82ms/step - loss: 0.6443 - accuracy: 0.7727 - val_loss: 3.1014 - val_accuracy: 0.4260
